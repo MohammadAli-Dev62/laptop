@@ -1,0 +1,111 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 55px;
+}
+.navbar{
+    z-index: 999 !important;
+}
+.carousel-inner{
+    height: 700px;
+}
+.carousel-inner div img{
+    height: 700px;
+}
+.carousel{
+    margin-top: 2px;
+}
+.card img{
+    height: 250px;
+}
+.product h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card-body .btn{
+    display: flex;
+    justify-content: center;
+}
+.ipad img{
+    height: 650px;
+    width: 100%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.footer-section h4 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social-media {
+        text-align: center;
+    }
+}
